@@ -1,0 +1,30 @@
+2018-02-21T17:59:41+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on null in C:\OpenServer\OpenServer\domains\wptest\wp-content\themes\twentyseventeen-child\woocommerce\single-product\add-to-cart\product_review.php:11
+Stack trace:
+#0 C:\OpenServer\OpenServer\domains\wptest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\OpenServer\OpenServer\domains\wptest\wp-content\themes\twentyseventeen-child\functions.php(113): wc_get_template('single-product/...')
+#2 C:\OpenServer\OpenServer\domains\wptest\wp-includes\class-wp-hook.php(286): action_woocommerce_single_product_summary('')
+#3 C:\OpenServer\OpenServer\domains\wptest\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\OpenServer\domains\wptest\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\OpenServer\OpenServer\domains\wptest\wp-content\themes\twentyseventeen-child\woocommerce\content-single-product.php(61): do_action('woocommerce_sin...')
+#6 C:\OpenServer\OpenServer\domains\wptest\w
+
+2018-02-21T18:01:13+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in C:\OpenServer\OpenServer\domains\wptest\wp-content\themes\twentyseventeen-child\functions.php:112
+Stack trace:
+#0 C:\OpenServer\OpenServer\domains\wptest\wp-settings.php(424): include()
+#1 C:\OpenServer\OpenServer\domains\wptest\wp-config.php(89): require_once('C:\\OpenServer\\O...')
+#2 C:\OpenServer\OpenServer\domains\wptest\wp-load.php(37): require_once('C:\\OpenServer\\O...')
+#3 C:\OpenServer\OpenServer\domains\wptest\wp-blog-header.php(13): require_once('C:\\OpenServer\\O...')
+#4 C:\OpenServer\OpenServer\domains\wptest\index.php(17): require('C:\\OpenServer\\O...')
+#5 {main}
+  thrown
+
+2018-02-21T18:01:39+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in C:\OpenServer\OpenServer\domains\wptest\wp-content\themes\twentyseventeen-child\functions.php:113
+Stack trace:
+#0 C:\OpenServer\OpenServer\domains\wptest\wp-settings.php(424): include()
+#1 C:\OpenServer\OpenServer\domains\wptest\wp-config.php(89): require_once('C:\\OpenServer\\O...')
+#2 C:\OpenServer\OpenServer\domains\wptest\wp-load.php(37): require_once('C:\\OpenServer\\O...')
+#3 C:\OpenServer\OpenServer\domains\wptest\wp-blog-header.php(13): require_once('C:\\OpenServer\\O...')
+#4 C:\OpenServer\OpenServer\domains\wptest\index.php(17): require('C:\\OpenServer\\O...')
+#5 {main}
+  thrown
+
